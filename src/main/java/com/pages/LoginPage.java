@@ -11,7 +11,7 @@ public class LoginPage {
 	private By emailId = By.id("email");
 	private By password = By.id("passwd");
 	private By signInButton = By.id("SubmitLogin");
-	private By forgotPwdLink = By.linkText("Forgot your password?");
+	private By forgotPwdLink = By.linkText("Forgot?");
     private By emailId_createAccount = By.id("email_create");
     private By createAccountButton = By.id("SubmitCreate");
     
