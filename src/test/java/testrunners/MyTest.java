@@ -1,7 +1,6 @@
 package testrunners;
 
 import org.junit.runner.RunWith;
-import cucumber.api.*;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.*;
