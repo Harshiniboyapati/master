@@ -1,9 +1,10 @@
 package testrunners;
 
 import org.junit.runner.RunWith;
-
+import cucumber.api.*;
 import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.*;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -15,6 +16,6 @@ import io.cucumber.junit.CucumberOptions;
 		
 		)
 
-public class MyTest {
+public class MyTest extends AbstractTestNGCucumberTests {
 
 }
